@@ -158,7 +158,7 @@ var intents = new builder.IntentDialog({ recognizers: [recognizer] })
 
 .onDefault((session) => {
     console.log ('AppId:%d',luisAppId);
-    session.send('Sorry, I did not understand \'%s\'.', session.message.text);
+    session.send('Sorry, I did not understand. In app.js \'%s\'.', session.message.text);
 });
 
 
