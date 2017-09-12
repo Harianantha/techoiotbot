@@ -331,8 +331,8 @@ function getTextForIntent(intentvalue){
 	}
 	else if(intentvalue == 'training content'){
 		chatreplytext='Our IoT training focusses on Azure IoT platform and we cover IoT hub,Device Management,IoT Edge, Stream Analytics, Event Hubs, Event grid,Azure functions, Azure ML,Visualization and HDInsight.';
-	}else if(intentvalue == 'training content'){
-		chatreplytext='Our IoT training focusses on Azure IoT platform and we cover IoT hub,Device Management,IoT Edge, Stream Analytics, Event Hubs, Event grid,Azure functions, Azure ML,Visualization and HDInsight.';
+	}else if(intentvalue == 'contact'){
+		chatreplytext='Please drop an e-mail along with your contact number and question to sales@techolution. We will get back to you at the earliest.';
 	}else if(intentvalue == 'trainingneed'){
 		chatreplytext='Our Initial assement test would act as SWOT analysis for your IoT skills and where you need to focus. Take our assessment from http://iotbootcamp.techolution.com';
 	}else{
