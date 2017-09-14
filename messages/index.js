@@ -319,7 +319,7 @@ function getTextForIntent(intentvalue){
 		chatreplytext='Various industry leaders have started their IoT journey by first evaluating the needs and gaps. We can help you with that thorugh our assessment.';
 	}else if(intentvalue == 'assessmentneed'){
 		chatreplytext='Various industry leaders have started their IoT journey by first evaluating the needs and gaps. We can help you with that thorugh our assessment.';
-	}else if(intentvalue == 'assessmentneed'){
+	}else if(intentvalue == 'bootcampneed'){
 		chatreplytext='As an Individual, first step In IoT is to understand where you stand and identifying your skill gaps. Our bootcamp will help you to identify the gaps and helps you to understand them.';
 	}
 	else if(intentvalue == 'iotIntroduction'){
